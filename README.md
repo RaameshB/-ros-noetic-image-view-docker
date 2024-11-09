@@ -1,3 +1,4 @@
+### NOTE: This has been built on ARM and probably only will work with ARM CPUs.
 ## Description
 This is a ROS Noetic docker image with [image_view](http://wiki.ros.org/image_view) installed and set up.
 ## Getting started
