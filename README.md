@@ -26,7 +26,7 @@ docker run -it \
     --privileged \
     ghcr.io/raameshb/ros-noetic-image-view rosrun image_view image_view image:=[NAME_OF_ROSTOPIC]
 ```
-For example, to use with the [libcamera ros driver](https://github.com/ctu-mrs/libcamera_ros_driver) (I also have a [docker image](https://github.com/RaameshB/libcamera-ros-driver-docker/pkgs/container/libcamera-ros-driver) for this repo) run
+For example, to use with the [libcamera ROS driver](https://github.com/ctu-mrs/libcamera_ros_driver) (I also have a [docker image](https://github.com/RaameshB/libcamera-ros-driver-docker/pkgs/container/libcamera-ros-driver) for this repo) run
 ```bash
 docker run -it \
     --network host \
